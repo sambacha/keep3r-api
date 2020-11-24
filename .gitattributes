@@ -1,0 +1,17 @@
+# gitattributes configuration 
+.kodiak.toml export-ignore 
+README.md export-ignore 
+/test export-ignore  
+/screenshots export-ignore
+/.github export-ignore
+
+.gitattributes export-ignore  
+
+
+# normalize lf & diff
+*.txt text
+*.html text
+*.css text
+*.js text
+*.sh text eol=lf
+*.html diff=html
